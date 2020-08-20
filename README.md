@@ -22,3 +22,7 @@ Mi Card is a personal business card.
 ### 100 Days Challenge
 * Day 2: Used stateless widgets and the benefits of hot reload. Learnt about containers and rows and coloumns for improving the UI elements.
 * Day 3: Learnt to add fonts and material icons and also to use the text widgets. And finally completed the Mi App.
+
+How it looks in the end:
+
+![Screenshot of the App](https://github.com/roshansingh98/mi_card_flutter/blob/master/githubImages/finalImage.jpeg)
