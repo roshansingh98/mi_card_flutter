@@ -1,14 +1,14 @@
 # Mi Card
 
-## Our Goal
+## The Goal
 
-Now that you've seen how to create a Flutter app entirely from scratch, we're going to go further and learn more about how to design user interfaces for Flutter apps.
+To go further and learn more about how to design user interfaces for Flutter apps.
 
-## What you will create
+## What is being done
 
-Mi Card is a personal business card. Imagine every time you wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+Mi Card is a personal business card.
 
-## What you will learn
+## What did I learn
 
 * How to create Stateless Widgets
 * What is the difference between hot reload and hot refresh and running an app from cold
@@ -19,3 +19,6 @@ Mi Card is a personal business card. Imagine every time you wanted to give someo
 * How to style Text widgets
 * How to read and use Flutter Documentation
 
+### 100 Days Challenge
+* Day 2: Used stateless widgets and the benefits of hot reload. Learnt about containers and rows and coloumns for improving the UI elements.
+* Day 3: Learnt to add fonts and material icons and also to use the text widgets. And finally completed the Mi App.

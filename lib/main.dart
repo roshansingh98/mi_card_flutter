@@ -11,21 +11,71 @@ class myApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Container(
-                width: 100.0,
-                color: Colors.red,
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/icons8-face-smile-64.png'),
               ),
-              Container(
-                width: 100.0,
-                height: 100.0,
-                color: Colors.yellow,
+              Text(
+                'A Man',
+                style: TextStyle(
+                  fontFamily: 'Alata',
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-              Container(
-                width: 100.0,
-                color: Colors.blue,
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'SansPro',
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              SizedBox(
+                width: 150.0,
+                height: 20.0,
+                child: Divider(
+                  color: Colors.white,
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.add_call,
+                    color: Colors.teal.shade400,
+                  ),
+                  title: Text(
+                    '654987123',
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.0,
+                        fontFamily: 'SansPro'),
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                      Icons.email,
+                      color: Colors.teal,
+                    ),
+
+                  title: Text(
+                      'hellothere@email.com',
+                      style: TextStyle(
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'SansPro'),
+                    ),
+                ),
               ),
             ],
           ),
